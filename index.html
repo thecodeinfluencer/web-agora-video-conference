@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Video Screen</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container text-center">
+        <div id="streams" class="row">
+          <!-- Videos -->
+        </div>
+      </div>
+
+      <div
+        class="d-flex justify-content-center align-items-center"
+        id="actions"
+      >
+        <div
+          class="d-flex justify-content-center px-4 py-2"
+          id="action-buttons"
+        >
+          <div>
+            <button class="btn btn-success mx-1" id="join">Join</button>
+          </div>
+          <div id="controls">
+            <button class="btn btn-danger mx-1" id="leave">Leave</button>
+            <button class="btn btn-info mx-1" id="mic">Mic On</button>
+            <button class="btn btn-info mx-1" id="camera">Camera On</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="AgoraRTC_N-4.14.0.js"></script>
+  <script src="main.js"></script>
+</html>
