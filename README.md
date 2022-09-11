@@ -1,6 +1,6 @@
 # web-agora-video-conference
 
-A simple vanilla JS video conferencng app using [Agora](https://agora.io/) video conferencing plugin
+A simple vanilla JS video conferencng app using [Agora](https://agora.io/) video conferencing plugin (Web RTC)
 
 ## setup
 
